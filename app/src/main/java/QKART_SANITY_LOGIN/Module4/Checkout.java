@@ -10,7 +10,7 @@ import org.openqa.selenium.support.ui.WebDriverWait;
 
 public class Checkout {
     RemoteWebDriver driver;
-    String url = "https://crio-qkart-frontend-qa.vercel.app/checkout";
+    String url = "https://qkart-qa-web.labs.crio.do/checkout";
 
     public Checkout(RemoteWebDriver driver) {
         this.driver = driver;

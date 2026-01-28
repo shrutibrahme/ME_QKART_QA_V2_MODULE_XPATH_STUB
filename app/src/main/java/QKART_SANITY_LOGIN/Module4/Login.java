@@ -12,7 +12,7 @@ import org.openqa.selenium.support.ui.FluentWait;
 
 public class Login {
     RemoteWebDriver driver;
-    String url = "https://crio-qkart-frontend-qa.vercel.app/login";
+    String url = "https://qkart-qa-web.labs.crio.do/login";
 
     public Login(RemoteWebDriver driver) {
         this.driver = driver;

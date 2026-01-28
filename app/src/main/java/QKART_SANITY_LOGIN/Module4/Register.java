@@ -11,7 +11,7 @@ import org.openqa.selenium.support.ui.WebDriverWait;
 
 public class Register {
     RemoteWebDriver driver;
-    String url = "https://crio-qkart-frontend-qa.vercel.app/register";
+    String url = "https://qkart-qa-web.labs.crio.do/register";
     public String lastGeneratedUsername = "";
 
     public Register(RemoteWebDriver driver) {
@@ -63,7 +63,7 @@ public class Register {
         try {
             WebDriverWait wait = new WebDriverWait(driver, 30);
             wait.until(ExpectedConditions.or(
-                ExpectedConditions.urlToBe("https://crio-qkart-frontend-qa.vercel.app/login")));
+                ExpectedConditions.urlToBe("https://qkart-qa-web.labs.crio.do/login")));
         } catch (TimeoutException e) {
             return false;
         }
